@@ -22,7 +22,7 @@ plot(t,x),grid,xlabel('t[s]'),ylabel('x[t]'),title('20ms'),axis([0 4*q -0.5 2]);
 
 %200ms
 q=input('Cate perioade doriti sa fie reprezentate grafic?')
-t=0:0.2:4*q;%se schimba pasul in 0.2(200ms), in rest explicatiile sunt aceleasi ca mai sus
+t=0:0.2:4*q;%se schimba pasul in 0.2 (200ms), in rest explicatiile sunt aceleasi ca mai sus
 f=0.25;
 w=2*pi*f;
 a=1.5;
