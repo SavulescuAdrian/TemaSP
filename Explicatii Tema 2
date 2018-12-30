@@ -1,0 +1,9 @@
+# TemaSP2
+      Se numeste serie Fourier Complexa deoarece coeficientii dezvoltarii sunt numere complexe.Se mai numeste si forma exponentiala
+deoarece functiile elementare sunt functii exponentiale.
+      In urma reconstruirii semnalului cu ajutorul coeficientilor, semnalul reconstruit tinde la forma semnalului initial.
+      Amplitudinile sunt numere pozitive si reprezentate grafic in raport cu frecventa formeaza spectrul de amplitudini al 
+semnalului.Este suficienta cunoasterea spectrului de amplitudini pentru a determina semnalul.
+      Spectrul de amplitudini este discret, existand componente numai la anumite frecvente.Amplitudinile componentelor de frecvente
+foarte mari sunt foarte mici(tinzand catre 0).
+    
