@@ -8,9 +8,10 @@ x=0.5*square(w*t,d)+0.5;%generarea semnalului dreptunghiular
 subplot(2,2,1);
 plot(t,x);axis([1 100 -2 2]);xlabel('t');ylabel('x[t]');title('Semnalul initial si semnalul reconstruit');%reprezentarea grafica
 hold on;
+N=50;%nr de coeficienti pe care ii voi calcula
 f=zeros(size(N));%creez un vector in care toate elementele sunt zero si in care voi reconstrui semnalul cu ajutorul coeficientilor 
 subplot(2,2,2);
-N=50;%nr de coeficienti pe care ii voi calcula
+
 a=0;%un vector egal cu zero in care voi memora Coeficientii dezvoltarii seriei Fourier
 omega=0;%un vector egal cu zero in care voi memora valorie k*omega
 
